@@ -15,7 +15,7 @@ A Claude Code skill for QA engineers to create test plans, generate manual test 
 
 ```bash
 # Clone to your Claude skills directory
-git clone https://github.com/YOUR_USERNAME/chloe-qa-figma-planner.git ~/.claude/skills/chloe-qa-figma-planner
+git clone https://github.com/chole995/chloe-qa-figma-planner.git ~/.claude/skills/chloe-qa-figma-planner
 ```
 
 ## Usage
