@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports output
+reports/
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

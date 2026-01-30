@@ -1,0 +1,77 @@
+{
+  "name": "Example Page Validation",
+  "url": "http://localhost:3000",
+  "chrome_debug_port": 9222,
+  "output_dir": "./reports",
+  "screenshot_dir": "./reports/screenshots",
+  "design_source": {
+    "type": "manual",
+    "comment": "type can be: figma, json, manual"
+  },
+  "css_properties": {
+    "base": [
+      "width",
+      "height",
+      "min-width",
+      "max-width",
+      "min-height",
+      "max-height",
+      "color",
+      "background-color",
+      "border-color",
+      "font-family",
+      "font-size",
+      "font-weight",
+      "line-height",
+      "padding-top",
+      "padding-right",
+      "padding-bottom",
+      "padding-left",
+      "margin-top",
+      "margin-right",
+      "margin-bottom",
+      "margin-left",
+      "border-width",
+      "border-style",
+      "border-radius"
+    ],
+    "effects": [
+      "box-shadow",
+      "text-shadow",
+      "opacity",
+      "transform",
+      "transition-property",
+      "transition-duration",
+      "transition-timing-function",
+      "animation-name",
+      "animation-duration",
+      "animation-timing-function"
+    ]
+  },
+  "elements": [
+    {
+      "name": "主按钮",
+      "selector": ".btn-primary",
+      "states": ["default", "hover", "active", "focus", "disabled"],
+      "screenshot": true,
+      "expected": {
+        "default": {
+          "background-color": "#0066FF",
+          "color": "#FFFFFF",
+          "font-size": "16px",
+          "padding": "12px 24px",
+          "border-radius": "8px"
+        },
+        "hover": {
+          "background-color": "#0052CC"
+        }
+      }
+    },
+    {
+      "name": "输入框",
+      "selector": "input[type='text']",
+      "states": ["default", "focus"],
+      "screenshot": true
+    }
+  ]
+}
